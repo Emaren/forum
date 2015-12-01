@@ -26,6 +26,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'interactive_editor', '~> 0.0.10'
+gem 'awesome_print', '~> 1.6', '>= 1.6.1'
+gem 'hirb', '~> 0.7.3'
+
+gem 'haml', '~> 4.0', '>= 4.0.7'
+gem 'simple_form', '~> 3.2'
+gem 'devise', '~> 3.5', '>= 3.5.2'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -44,4 +51,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
